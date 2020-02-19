@@ -12,93 +12,20 @@ namespace IterativeStatementAngelicanNguyen
             {
                 if (UserNumber >= 2 && UserNumber <= 10)
                 {
-                        if (UserNumber % 2 == 1)
+                    int i;
+                    if (UserNumber % 2 == 1)
                     {
-                        if (UserNumber == 3)
+                        int x = UserNumber - 1;
+                        for(i = 1; i<=x; i++)
                         {
-                            Console.WriteLine("You entered an odd number");
-                            Console.WriteLine("You entered an odd number");
-                        }
-                            if (UserNumber == 5)
-                        {
-                            Console.WriteLine("You entered an odd number");
-                            Console.WriteLine("You entered an odd number");
-                            Console.WriteLine("You entered an odd number");
-                            Console.WriteLine("You entered an odd number");
-
-                        }
-                        if (UserNumber == 7)
-                        {
-                            Console.WriteLine("You entered an odd number");
-                            Console.WriteLine("You entered an odd number");
-                            Console.WriteLine("You entered an odd number");
-                            Console.WriteLine("You entered an odd number");
-                            Console.WriteLine("You entered an odd number");
-                            Console.WriteLine("You entered an odd number");
-
-                        }
-                        if (UserNumber == 9)
-                        {
-                            Console.WriteLine("You entered an odd number");
-                            Console.WriteLine("You entered an odd number");
-                            Console.WriteLine("You entered an odd number");
-                            Console.WriteLine("You entered an odd number");
-                            Console.WriteLine("You entered an odd number");
-                            Console.WriteLine("You entered an odd number");
-                            Console.WriteLine("You entered an odd number");
                             Console.WriteLine("You entered an odd number");
                         }
                     }
                     else
                     {
-                        if(UserNumber ==2)
+                        int y = UserNumber + 1;
+                        for(i = 1; i <=y; i++)
                         {
-                            Console.WriteLine("You entered an even number");
-                            Console.WriteLine("You entered an even number");
-                            Console.WriteLine("You entered an even number");
-                        }
-                        if(UserNumber ==4)
-                        {
-                            Console.WriteLine("You entered an even number");
-                            Console.WriteLine("You entered an even number");
-                            Console.WriteLine("You entered an even number");
-                            Console.WriteLine("You entered an even number");
-                            Console.WriteLine("You entered an even number");
-                        }
-                        if(UserNumber==6)
-                        {
-                            Console.WriteLine("You entered an even number");
-                            Console.WriteLine("You entered an even number");
-                            Console.WriteLine("You entered an even number");
-                            Console.WriteLine("You entered an even number");
-                            Console.WriteLine("You entered an even number");
-                            Console.WriteLine("You entered an even number");
-                            Console.WriteLine("You entered an even number");
-                        }
-                        if(UserNumber==8)
-                        {
-                            Console.WriteLine("You entered an even number");
-                            Console.WriteLine("You entered an even number");
-                            Console.WriteLine("You entered an even number");
-                            Console.WriteLine("You entered an even number");
-                            Console.WriteLine("You entered an even number");
-                            Console.WriteLine("You entered an even number");
-                            Console.WriteLine("You entered an even number");
-                            Console.WriteLine("You entered an even number");
-                            Console.WriteLine("You entered an even number");
-                        }
-                        if(UserNumber==10)
-                        {
-                            Console.WriteLine("You entered an even number");
-                            Console.WriteLine("You entered an even number");
-                            Console.WriteLine("You entered an even number");
-                            Console.WriteLine("You entered an even number");
-                            Console.WriteLine("You entered an even number");
-                            Console.WriteLine("You entered an even number");
-                            Console.WriteLine("You entered an even number");
-                            Console.WriteLine("You entered an even number");
-                            Console.WriteLine("You entered an even number");
-                            Console.WriteLine("You entered an even number");
                             Console.WriteLine("You entered an even number");
                         }
                     }
