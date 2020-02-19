@@ -18,7 +18,7 @@ namespace IterativeStatementAngelicanNguyen
                         int x = UserNumber - 1;
                         for(i = 1; i<=x; i++)
                         {
-                            Console.WriteLine("You entered an odd number");
+                            Console.WriteLine(i + ". " + "You entered an odd number");
                         }
                     }
                     else
@@ -26,7 +26,7 @@ namespace IterativeStatementAngelicanNguyen
                         int y = UserNumber + 1;
                         for(i = 1; i <=y; i++)
                         {
-                            Console.WriteLine("You entered an even number");
+                            Console.WriteLine(i + ". " + "You entered an even number");
                         }
                     }
                 }
